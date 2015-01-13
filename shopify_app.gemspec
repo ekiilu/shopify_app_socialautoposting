@@ -5,7 +5,7 @@ Gem::Specification.new do |s|
   s.name        = "shopify_app_socialautoposting"
   s.version     = "1.0.1"
   s.platform    = Gem::Platform::RUBY
-  s.author      = "Shopify"
+  s.author      = "Eric Kiilu"
   s.email       = ["eric@1024bitslabs.com"]
   s.homepage    = "http://socialautoposting.com"
   s.summary     = %q{This gem is customized for socialautoposting}
