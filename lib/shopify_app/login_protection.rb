@@ -34,12 +34,11 @@ module ShopifyApp::LoginProtection
 
   def redirect_to_login
     session[:return_to] = request.fullpath if request.get?
-    #redirect_to shopify_login_path(shop: params[:shop])
-    redirect_to "https://localhost/shopify/login?shop=#{params[:shop]}"
+    redirect_to shopify_login_path(shop: params[:shop])
   end
 
   def close_session
     session[:shopify] = nil
-    redirect_to "https://localhostuuuu/shopify/login"
+    redirect_to shopify_login_path
   end
 end
