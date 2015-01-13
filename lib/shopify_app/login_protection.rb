@@ -40,6 +40,6 @@ module ShopifyApp::LoginProtection
 
   def close_session
     session[:shopify] = nil
-    redirect_to "https://localhost/shopify/login"
+    redirect_to "https://localhostuuuu/shopify/login"
   end
 end
