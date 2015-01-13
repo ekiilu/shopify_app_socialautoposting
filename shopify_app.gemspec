@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.author      = "Eric Kiilu"
   s.email       = ["eric@1024bitslabs.com"]
-  s.homepage    = "http://socialautoposting.com"
+  s.homepage    = "https://socialautoposting.com"
   s.summary     = %q{This gem is customized for socialautoposting}
   s.description = %q{Creates a basic sessions controller for authenticating with your Shop and also a product controller which lets your edit your products easily.}
 
